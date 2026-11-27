@@ -1,3 +1,7 @@
-# Opening entry
+### Capped central conformity
 
-This is the opening entry of the ladder. It is compared with nothing, cites nothing and has ladder score 1. Its verifier is the text of `opening.md`.
+Case 1 separates from each cited verifier. The common body proves two bounds, and both versions make the same broader graph claim. Every cited rubric applies one central conformity deduction and a 69 cap, irrespective of whether one or several claims independently fail to conform. They therefore tie the two papers at 69. Paper B independently replaces a proved two-variable product bound with a three-variable sum of products. Correcting the abstract's description of the graph theorem would leave this second mismatch in place. Correcting the algebraic promise would leave the graph mismatch in place. The new rule thus scores A 69 and B 68, while retaining the common high assessment of the shared body before conformity. Neither gets a high final score.
+
+### Inherited cases and calibration
+
+The predecessor's dominant-claim case remains 30 versus 28 and the mixed-result spanning-tree pair remains 59 versus 55. The earlier short tree note still reaches high and the diameter claim with no separate substantive result still scores low. In the protected samples the sum-free and Collatz scores retain their bands. In both protected conformity pairs the one central defect penalty still ensures at least the required gap when the body matches, and an extra point off for independently unsupported promises can only widen that gap. The only changed value is 69, which can become 68. No cited rubric produces a score of 68, and every lower attainable score is below 68. The rule therefore preserves every prior strict score order and each high or low threshold.
