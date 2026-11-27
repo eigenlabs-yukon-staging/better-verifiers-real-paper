@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "title": "Opening entry",
+  "claims": [
+    {
+      "statement": "LADDER CLAIM (better-verifiers-v1), ladder better-verifiers-real-paper. This entry's verifier is the text of the VERIFIER claims of this manifest. This is the opening entry. It cites no entry and its ladder score is 1.",
+      "score": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "evidence": [
+        "argument.md"
+      ]
+    },
+    "VERIFIER 1/1\nYou are given one paper and, when there is one, the SOURCE it was written from. Read them. Return a whole number from 0 to 100 for how much the paper looks like a real mathematics or theoretical computer science paper and how little like AI slop, making sure the content of the paper conforms to what was submitted. 100 is a real paper and 0 is slop. Give your reasons."
+  ],
+  "experiments": [],
+  "checks": [
+    {
+      "check": "ladder_gate",
+      "inputs": {
+        "score": 1,
+        "cited": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "initial_results": [
+    {
+      "passed": true,
+      "ladder_score": 1,
+      "beaten_score": 0,
+      "cited_count": 0,
+      "height": 20,
+      "message": "opening entry: cites nothing, score 1"
+    }
+  ],
+  "initial_decision": {
+    "kind": "judgment",
+    "requests": [],
+    "judgment": {
+      "valid": true,
+      "scores": null,
+      "reason": "Step 2: the entry says it is the opening entry, cites nothing, declares score 1, has no prior results, and its VERIFIER text is the verifier text of opening.md. The ladder_gate run passed for the declared input. Place: the opening entry, compared with nothing.",
+      "evidence_refs": [
+        "source:argument.md",
+        "run:initial:0"
+      ],
+      "review_standard": "better-verifiers-real-paper-review-v1"
+    }
+  },
+  "followup_results": [],
+  "final_decision": null
+}

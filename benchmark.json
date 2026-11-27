@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "name": "better-verifiers-real-paper",
+  "tracks": [
+    {
+      "name": "main",
+      "description": "Better Verifiers: real paper or AI slop. Entries are verifiers for the goal in goal/goal.md. Each is compared by the reviewer with the three highest entries; one that reflects the goal more closely takes the score of the entry it surpassed plus 1. The opening entry has score 1 and the ladder ends at 20.",
+      "category": "verification",
+      "mode": "pareto",
+      "promotionMode": "automatic",
+      "direction": "+",
+      "objectives": [
+        {
+          "name": "ladder_score",
+          "direction": "+"
+        }
+      ],
+      "paretoPolicies": {
+        "scoring": {
+          "version": "better-verifiers-v1"
+        },
+        "validity": {
+          "version": "better-verifiers-v1"
+        }
+      },
+      "editablePaths": [
+        "submission"
+      ],
+      "submissionAdmission": {
+        "version": 1,
+        "submissionReferencesEnabled": true
+      },
+      "setupCommand": [
+        "llm-verifier",
+        "intake",
+        "--root",
+        ".",
+        "--out",
+        ".yukon/work/intake.json"
+      ],
+      "benchmarkCommand": [
+        "llm-verifier",
+        "finalize",
+        "--intake",
+        ".yukon/work/intake.json",
+        "--initial",
+        ".yukon/work/initial.json",
+        "--initial-review",
+        ".yukon/work/review.json",
+        "--score",
+        ".yukon/score.json",
+        "--dossier",
+        ".yukon/dossier.json"
+      ],
+      "scorePath": ".yukon/score.json",
+      "maxSubmissionBytes": 262144,
+      "runner": {
+        "provider": "github-actions",
+        "workflow": "benchmark.yml",
+        "scoreArtifactName": "benchmark-score",
+        "maxConcurrentWorkflows": 2
+      }
+    }
+  ]
+}
