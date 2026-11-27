@@ -1,3 +1,7 @@
-# Opening entry
+### Opening entry (score 1)
 
-This is the opening entry of the ladder. It is compared with nothing, cites nothing and has ladder score 1. Its verifier is the text of `opening.md`.
+Case 1 separates. Connectivity supplies a path but never supplies the shared neighbor used to shorten it. The four-vertex path is an internal counterexample to the inference and to the theorem. The ledger treats this as the only central claim, the proof check rejects it, and the body score is 15. The opening entry asks how real the whole paper looks but neither requires checking the decisive inference nor bounds the score for this failure. It leaves the low threshold undetermined. Case 2 also has a forced high result under the body rubric, whereas the opening text gives no threshold for a complete plain note.
+
+The opening lists no cases. Sample 1 earns high because both bounds follow and the novelty claim is accurate. Sample 2 has no usable definition or proof of the decisive descent property, so its body score is at most 30 before any conformity deduction. In sample 3 the bipartite proof supports the body score of both versions, but the Mantel promise is strictly broader, forcing the 69 cap as well as a deduction of at least 20 points from the common body score. In sample 4 the faithful report accurately identifies the finite check, the zero-one reduction and the lack of a lower bound. The second version invents a lower bound and stronger evidence, and changes the reported depth, so the central conformity rule caps the score at 69 and yields the required gap.
+
+The rubric preserves checkable arguments that use ordinary implicit steps, exact finite evidence within its scope and properly attributed results. It allows short, expository and preliminary written work to receive high scores on the results it actually establishes. Unsupported headline mathematics still cannot be traded off against publication-like presentation or an unrelated proof.
